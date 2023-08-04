@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "you",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build.js --mode=production",
+    "watch": "node build.js"
+  },
+  "devDependencies": {
+    "@citizenfx/client": "latest",
+    "@citizenfx/server": "latest",
+    "@types/mysql": "^2.15.21",
+    "@types/node": "^16.3.1",
+    "esbuild": "^0.14.10"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
+  }
+}
